@@ -1,4 +1,4 @@
-export const accent = "#6322EF";
+export { STREAMLINE_ACCENT as accent } from "@/lib/brand";
 export const bg = "#0B0B15";
 export const muted = "#9CA3AF";
 

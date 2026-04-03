@@ -83,9 +83,8 @@ export function LoginFormPanel({
               className={cn(
                 "h-12 w-full rounded-xl border bg-[#12121f] px-4 text-sm text-white placeholder:text-gray-500",
                 "outline-none transition-[box-shadow,border-color]",
-                "focus-visible:border-[#6322EF] focus-visible:ring-2 focus-visible:ring-[#6322EF]/25",
+                "border-streamline-accent/35 focus-visible:border-streamline-accent focus-visible:ring-2 focus-visible:ring-streamline-accent/25",
               )}
-              style={{ borderColor: "rgba(99, 34, 239, 0.35)" }}
             />
           </div>
 
@@ -108,9 +107,8 @@ export function LoginFormPanel({
                 className={cn(
                   "h-12 w-full rounded-xl border bg-[#12121f] pr-12 pl-4 text-sm text-white",
                   "outline-none transition-[box-shadow,border-color]",
-                  "focus-visible:border-[#6322EF] focus-visible:ring-2 focus-visible:ring-[#6322EF]/25",
+                  "border-streamline-accent/35 focus-visible:border-streamline-accent focus-visible:ring-2 focus-visible:ring-streamline-accent/25",
                 )}
-                style={{ borderColor: "rgba(99, 34, 239, 0.35)" }}
               />
               <button
                 type="button"
@@ -137,7 +135,7 @@ export function LoginFormPanel({
                 id="remember"
                 checked={remember}
                 onCheckedChange={(v) => setRemember(v === true)}
-                className="border-gray-500 data-[state=checked]:border-[#6322EF] data-[state=checked]:bg-[#6322EF]"
+                className="border-gray-500 data-[state=checked]:border-streamline-accent data-[state=checked]:bg-streamline-accent"
               />
               <Label
                 htmlFor="remember"

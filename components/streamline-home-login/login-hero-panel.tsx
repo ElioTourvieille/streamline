@@ -36,7 +36,7 @@ export function LoginHeroPanel() {
       <div className="absolute inset-0 z-10 flex items-center justify-center">
         <div className="relative h-full w-full min-h-[480px]">
           <div
-            className="absolute top-1/4 right-1/4 size-64 rounded-full bg-[#6322EF]/30 blur-[100px]"
+            className="absolute top-1/4 right-1/4 size-64 rounded-full bg-streamline-accent/30 blur-[100px]"
             aria-hidden
           />
           <div
@@ -64,12 +64,12 @@ export function LoginHeroPanel() {
               </div>
             </div>
             <div className="flex gap-4">
-              <div className="h-20 w-1/3 rounded-xl border border-[#6322EF]/30 bg-[#6322EF]/20" />
+              <div className="h-20 w-1/3 rounded-xl border border-streamline-accent/30 bg-streamline-accent/20" />
               <div className="h-20 w-1/3 rounded-xl border border-white/10 bg-white/5" />
               <div className="h-20 w-1/3 rounded-xl border border-white/10 bg-white/5" />
             </div>
             <div
-              className="absolute -bottom-6 -right-6 size-32 rounded-full bg-[#6322EF]/40 blur-2xl"
+              className="absolute -bottom-6 -right-6 size-32 rounded-full bg-streamline-accent/40 blur-2xl"
               aria-hidden
             />
           </div>
